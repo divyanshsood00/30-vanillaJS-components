@@ -1,5 +1,5 @@
 # 🖼️ 30 Days of UI — Micro Frontend Projects
-[Live link](url)
+## [LIVE link](https://divyanshsood00.github.io/30_Days_of_UI/)
 
 A collection of **30 bite-sized UI/UX projects** built from scratch to practice front-end development and interaction design.
 
