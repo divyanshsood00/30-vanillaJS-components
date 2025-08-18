@@ -60,6 +60,19 @@
       font-weight: 600;
     }
 
+    .highlight {
+      border: 2px solid gold;
+      position: relative;
+    }
+
+    .highlight::after {
+      content: "⭐";
+      position: absolute;
+      top: 8px;
+      right: 12px;
+      font-size: 1.2rem;
+    }
+
     footer {
       text-align: center;
       padding: 1rem;
@@ -73,6 +86,8 @@
   <header>
     <h1>30 Days of UI</h1>
     <p>A collection of small, creative front-end projects</p>
+    <p>The ⭐ marked one is a flagship project.</p>
+
   </header>
 
   <main class="grid">
@@ -97,7 +112,7 @@
     <div class="card"><a href="19material-ui-clock/index.html">19. Material UI Clock</a></div>
     <div class="card"><a href="20ripple-tile/index.html">20. Ripple Tile</a></div>
     <div class="card"><a href="21draganddrop/index.html">21. Drag & Drop</a></div>
-    <div class="card"><a href="22jspaint/index.html">22. JS Paint</a></div>
+    <div class="card highlight"><a href="22jspaint/index.html">22. JS Paint</a></div>
     <div class="card"><a href="23kinetic-loader/index.html">23. Kinetic Loader</a></div>
     <div class="card"><a href="24professional-card/index.html">24. Professional Card</a></div>
     <div class="card"><a href="25double-vertical-slider(supercool)/index.html">25. Double Vertical Slider</a></div>
